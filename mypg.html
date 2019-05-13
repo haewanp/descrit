@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.typekit.net/pth8nac.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+        <header class="navbar">
+            <a class="logo" href="index.html"><img src="img/logo.png"></a>
+            <div class="mypg">
+                <a class="username" href="mypg.html">Amenda</a>
+                <div class="profpic">
+                <img src="img/profile-img.gif">
+                </div>
+            </div>
+        </header>
+        <div class="account-profile">
+            <div class="usrinfo1">
+                <div class="profpic">
+                <img src="img/profile-img.gif">
+                </div>
+                <div class="usrinfo">
+                    <h1 class="usr1">Amenda</h1>
+                    <p class="usr2">UX Designer</p>
+                    <p class="usr3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
+            </div>
+            <div class="usrinfo2">
+                <div class="subinfo">
+                    <div class="num_project">
+                        <p id="b" onclick="myFunction()">14</p>
+                        <h2>project</h2>
+                    </div>
+                    <div class="num_group">
+                        <p>07</p>
+                        <h2>Group</h2>
+                    </div>
+                    <div class="num_following">
+                        <p>35</p>
+                        <h2>following</h2>
+                    </div>
+                    <div class="num_follower">
+                        <p>28</p>
+                        <h2>follower</h2>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="button" id="follow" onclick="myFunction()">
+                        <p>Follow</p>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                    </div>
+                    <div class="button" id="invite" onclick="myFunction2()">
+                        <p>Invite</p>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="mywork">
+            <h1>My Work</h1>
+            <ul class="wrk_ctgry">
+                <li>All</li>
+                <li>Category#1</li>
+                <li>Category#2</li>
+                <li>Category#3</li>
+            </ul>
+            <div class="myprojects">
+                <div class="upload" href="#">
+                    <i class="fa fa-plus"></i>
+                </div>
+                <div class="project"></div>
+                <div class="project"></div>
+                <div class="project"></div>
+                <div class="project"></div>
+                <div class="project"></div>
+                <div class="clear"></div>
+                
+            </div>
+        </div>
+        
+        <div class="mygroups mygroup">
+            <h1>My Group</h1>
+            <div class="upload" href="#">
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="group"></div>
+            <div class="group"></div>
+            <div class="clear"></div>
+        </div>
+  </div>
+
+<script>
+    function myFunction() {
+       var element = document.getElementById("follow");
+       element.classList.toggle("active");
+    }
+    
+    function myFunction2() {
+       var element = document.getElementById("invite");
+       element.classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>
